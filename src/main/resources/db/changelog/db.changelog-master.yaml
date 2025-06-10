@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: registration_process_init
+      author: Ilnur Khafizov
+      changes:
+        - sqlFile:
+            path: db/changelog/sql/registration_process_init.sql
+            encoding: utf8
